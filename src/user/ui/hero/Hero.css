@@ -1,0 +1,75 @@
+.Hero{
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+.HalfHero{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+.HalfHeroHeader{
+  font-size: 68px;
+  color:  #0099ff;
+  margin-bottom: 0px;
+}
+.OtherHeroHeader{
+    font-size: 68px;
+    color:  black  ;
+    margin-bottom: 0px;
+}
+.ArticlesHeroHeader{
+    font-size: 68px;
+    color:  #c068f8  ;
+    margin-bottom: 0px;
+}
+.SecondHalf{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  background-color: rgba(0, 0, 0, .1);
+}
+.SecondHeroButtonContainer{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+.HeroLogo {
+  max-width: 500px;
+}
+@media (max-width: 510px) {
+  .HeroLogo{
+    max-width: 300px !important;
+  }
+
+}
+
+.HeroText{
+  max-width: 500px;
+  text-align: center;
+  /*color: black;*/
+  font-size: 20px;
+}
+
+.HeroButtonContainer{
+  display: flex;
+  justify-content: center;
+}
+.HeroButton{
+  margin: 15px;
+  width: 300px;
+  height: 50px;
+
+}
+.HeroButton a{
+  font-size: 20px;
+}
